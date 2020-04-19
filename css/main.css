@@ -1,6 +1,5 @@
 html {
   font-family: Merriweather, serif;
-  font-weight: bold;
 }
 
 .color-brand {
@@ -12,8 +11,11 @@ html {
 }
 
 a {
+  color: #000;
+}
+
+.green-text {
   color: #568c36;
-  text-decoration: none;
 }
 
 a:hover {
@@ -35,6 +37,10 @@ a:hover {
 .nav a {
   color: #fff;
   text-decoration: none;
+}
+
+.nav a:focus {
+  outline: 5px solid black;
 }
 
 .nav a:hover {
@@ -62,10 +68,6 @@ td {
 
 .news {
   background-color: #eeebe9;
-}
-
-.news-articles {
-  text-decoration: underline;
 }
 
 .contact {
